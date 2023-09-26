@@ -1,0 +1,11 @@
+asdjsvd,ahdkdjhsdjhaDGAjhsd
+asfsadfsadfasdf
+sdfsadfasdf
+asdjsvdfas
+dfas
+dfasasd
+fasd
+#ifndef ONLINE_JUDGE
+freopen("input.txt", "r", stdin);
+freopen("output.txt", "w", stdout);
+#endifasdf
