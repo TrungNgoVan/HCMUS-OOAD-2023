@@ -1,11 +1,11 @@
 # `Hệ thống quản lý tiêm chủng OOAD` 
 ## Đặt vấn đề
-Hệ thống tiêm chủng OOAD chính thức đi vào hoạt động từ tháng 9 năm 2023. Hệ thống tiêm chủng OOAD gồm 3 trung tâm đặt trên địa bàn thành phố HCM, nhàm phục vụ nhu cầu tiêm chủng của cả đối tượng người lớn và trẻ em. 
+Hệ thống tiêm chủng OOAD chính thức đi vào hoạt động từ tháng 9 năm 2023. Hệ thống tiêm chủng OOAD gồm 3 trung tâm đặt trên địa bàn thành phố HCM, nhằm phục vụ nhu cầu tiêm chủng của cả đối tượng người lớn và trẻ em. 
 
 Hiện tại, các qui trình nghiệp vụ bao gồm: 
 - Đăng ký tiêm chủng
 - Đăng ký đặt mua vắc xin
-- Tiêm chủng thanh toán
+- Thanh toán chi phí
 - Theo dõi lic̣h sử tiêm chủng được thực hiện thủ công tại các trung tâm trong hệ thống. 
 - Phân công y - bác sĩ tại các trung tâm
 
