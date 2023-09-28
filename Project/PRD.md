@@ -4,7 +4,7 @@ Hệ thống tiêm chủng OOAD chính thức đi vào hoạt động từ thán
 
 Hiện tại, các qui trình nghiệp vụ bao gồm: 
 - Đăng ký tiêm chủng
-- Đăng ký đặt mua vác xin
+- Đăng ký đặt mua vắc xin
 - Tiêm chủng thanh toán
 - Theo dõi lic̣h sử tiêm chủng được thực hiện thủ công tại các trung tâm trong hệ thống. 
 - Phân công y - bác sĩ tại các trung tâm
@@ -14,9 +14,9 @@ Các trung tâm trong hệ thống tiêm chủng có cùng quy trình vận hàn
 ## Đặc tả các qui trình nghiệp vụ
 - Qui trình đăng ký tiêm chủng
 
-    Khi khách hàng có nhu cầu tiêm vác xin cần đến 1 trong các hệ thống để đăng ký. Khi đăng ký cần cung cấp thông tin cá nhân cần thiết: họ và tên, ngày sinh, giới tính, địa chỉ ,... Nếu người tiêm là trẻ em cần cung cấp thông tin người giám hộ.
+    Khi khách hàng có nhu cầu tiêm vắc xin cần đến 1 trong các hệ thống để đăng ký. Khi đăng ký cần cung cấp thông tin cá nhân cần thiết: họ và tên, ngày sinh, giới tính, địa chỉ ,... Nếu người tiêm là trẻ em cần cung cấp thông tin người giám hộ.
 
-    Khách hàng sẽ được nhân viên hướng dẫn giới thiệu các gói tiêm hiện có trên hệ thống. Khách hàng cũng có thể chọn một gói hoặc chọn kết hợp nhiều gói tiêm khi đăng ký tiêm chủng. Khách hàng cũng cần đăng ký ngày mong muốn tiêm. Sau khi điền phiếu xong, khách hàng sẽ gửi phiếu đăng ký lại cho nhân viên kiểm tra thông tin và khả năng cung cấp của vác xin trong thời gian mà khách hàng đã chọn (dựa vào kế hoặch mua vác xin của trung tâm). Nếu thông tin sai, thiếu hoặc không có khả năng cung cấp trong thời gian đó nhân viên sẽ trả lại phiếu cho khách hàng điều chỉnh và hướng dẫn khách hàng đặt mua vác xin để được ưu tiên tiêm khi có vác xin. 
+    Khách hàng sẽ được nhân viên hướng dẫn giới thiệu các gói tiêm hiện có trên hệ thống. Khách hàng cũng có thể chọn một gói hoặc chọn kết hợp nhiều gói tiêm khi đăng ký tiêm chủng. Khách hàng cũng cần đăng ký ngày mong muốn tiêm. Sau khi điền phiếu xong, khách hàng sẽ gửi phiếu đăng ký lại cho nhân viên kiểm tra thông tin và khả năng cung cấp của vắc xin trong thời gian mà khách hàng đã chọn (dựa vào kế hoặch mua vắc xin của trung tâm). Nếu thông tin sai, thiếu hoặc không có khả năng cung cấp trong thời gian đó nhân viên sẽ trả lại phiếu cho khách hàng điều chỉnh và hướng dẫn khách hàng đặt mua vắc xin để được ưu tiên tiêm khi có vắc xin. 
     
     Nếu có thể đắp ứng, phiếu đăng ký sẽ được chuyển đến quy triǹh thanh toán, cấp thể khách hàng và xuất hóa đơn thêo yêu cầu của khách hàng (nếu có).
 
@@ -28,16 +28,16 @@ Các trung tâm trong hệ thống tiêm chủng có cùng quy trình vận hàn
 
 - Qui trình đặt mua Vacxin
 
-    Đối với gói vác xin hoặc vác xin lẻ mà hệ thóng chưa có hoặc đã hết, khách hàng có thể đặt mua theo nhu càu. khách hàng sẽ cung cấp thông tin vác xin muốn đặt (từ danh sách vác xin của hệ thóng hoặc vác xin khác). Nếu khách hàng là thành viên cần cung cấp mã khách hàng. Nếu khách hàng chưa phải là thành viên cần cung cấp thông tin cá nhân để nhân viên có thể liên hệ khi có vác xin. Nhân viên sẽ kiểm tra thông tin và đưa vào danh sách đặt mua. Danh sách đặt mua sẽ được chuyển đến người quản lý để duyệt. Vác xin được duyệt mua sẽ được lập phiếu đặt hàng và gửi đến nhà cung cấp khi đủ số lượng quy điṇh.
+    Đối với gói vắc xin hoặc vắc xin lẻ mà hệ thống chưa có hoặc đã hết, khách hàng có thể đặt mua theo nhu cầu. khách hàng sẽ cung cấp thông tin vắc xin muốn đặt (từ danh sách vắc xin của hệ thống hoặc vắc xin khác). Nếu khách hàng là thành viên cần cung cấp mã khách hàng. Nếu khách hàng chưa phải là thành viên cần cung cấp thông tin cá nhân để nhân viên có thể liên hệ khi có vắc xin. Nhân viên sẽ kiểm tra thông tin và đưa vào danh sách đặt mua. Danh sách đặt mua sẽ được chuyển đến người quản lý để duyệt. Vắc xin được duyệt mua sẽ được lập phiếu đặt hàng và gửi đến nhà cung cấp khi đủ số lượng quy điṇh.
 
     Mở rộng (nếu có thể):
     - Cho phép khách hàng đặt và thanh toán online
-    - Hệ thóng tự động lập phiếu đặt khi quản lý đã duyệt đơn
+    - Hệ thống tự động lập phiếu đặt khi quản lý đã duyệt đơn
 
 
 - Qui trình thanh toán
 
-    Nhân viên kế toán tiếp nhận thông tin đăng ký của khách hàng và tiến hành thanh toán. khách hàng có thể thanh toán thông qua 2 hình thức: tiền mặt hoặc thông qua thẻ (chính chủ). Đối với các đơn hàng trên 10 triệu và chưa đến thời điểm tiêm khách hàng có thể chia thành nhiều đợt thanh toán và mỗi đợt thanh toán ít nhắt 25% tổng tiền (thanh toán hết trước thời điểm tiêm). Nhân viên kế toán sẽ xác nhận khách hàng thanh toán theo đợt hoặc thanh toán toàn bộ. Nếu khách hàng chọn thanh toán một lần, nhân viên sẽ lập hóa đơn và tiến hành thanh toán. Nếu khách hàng chọn thanh toán theo đợt, nhân viên sẽ hướng dẫn khách hàng chia đợt thanh toán theo quy định rồi tiến hành thanh toán.
+    Nhân viên kế toán tiếp nhận thông tin đăng ký của khách hàng và tiến hành thanh toán. khách hàng có thể thanh toán thông qua 2 hình thức: tiền mặt hoặc thông qua thẻ ngân hàng (chính chủ). Đối với các đơn hàng trên 10 triệu và chưa đến thời điểm tiêm khách hàng có thể chia thành nhiều đợt thanh toán và mỗi đợt thanh toán ít nhắt 25% tổng tiền (thanh toán hết trước thời điểm tiêm). Nhân viên kế toán sẽ xác nhận khách hàng thanh toán theo đợt hoặc thanh toán toàn bộ. Nếu khách hàng chọn thanh toán một lần, nhân viên sẽ lập hóa đơn và tiến hành thanh toán. Nếu khách hàng chọn thanh toán theo đợt, nhân viên sẽ hướng dẫn khách hàng chia đợt thanh toán theo quy định rồi tiến hành thanh toán.
 
 
 - Qui trình phân công y - bác sĩ
