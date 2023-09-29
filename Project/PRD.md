@@ -21,7 +21,7 @@ Các trung tâm trong hệ thống tiêm chủng có cùng quy trình vận hàn
     Nếu có thể đắp ứng, phiếu đăng ký sẽ được chuyển đến quy triǹh thanh toán, cấp thể khách hàng và xuất hóa đơn theo yêu cầu của khách hàng (nếu có).
 
     Mở rộng (nếu có thể):
-    - Khách hàng có thể đặt online và nhân viên sẽ xử lý phiếu đặt và liên hệ lặi trong 1 tuần
+    - Khách hàng có thể đặt online và nhân viên sẽ xử lý phiếu đặt và liên hệ lại trong 1 tuần
     - Khách hàng có thể đăng ký và tiêm ở 2 trung tâm khác nhau
     - Khách hàng có thể thanh toán trực tuyến
     - Nhắc lịch tiêm khi đến thời hạn
@@ -47,6 +47,9 @@ Các trung tâm trong hệ thống tiêm chủng có cùng quy trình vận hàn
     Mở rộng (nếu có thể):
     - Hệ thống cho phép nhân viên đăng ký và xem lịch cá nhân
 
+## Đặc tả các đối tượng trong hệ thống
 
+- Khách hàng: Mỗi khách hàng có những thông tin cá nhân cơ bản. Khách hàng có thể đăng ký mua, tiêm chủng, thanh toán và đặt lịch tiêm chủng với nhân viên.
 
+- Nhân viên (bao gồm y - bác sĩ, nhân viên kế toán, nhân viên liên quan): Mỗi nhân viên có những thông tin cá nhân cơ bản. Nhân viên tiến hành giới thiệu, hướng dẫn, hỗ trợ khách hàng hoàn thành hồ sơ đăng ký tiêm chủng, mua vắc xin, thanh toán và thông báo lịch tiêm chủng đến khách hàng, đồng thời thực hiện các công việc liên quan đến nghiệp vụ của bản thân.
 
